@@ -1,0 +1,172 @@
+Column Key
+
+QB
+
+Pro dataset, rushing
+'Player' - Name of the player
+'Tm' - NFL Team
+'Age' - Age of the player their rookie season
+'G_P' - Number of NFL games played their first season
+'GS' - Number of NFL games started their first season
+'Att_R_P' - NFL rushing attempts
+'Yds_R_P' - NFL rushing yards gained
+'TD_R_P' - NFL rushing touchdowns scored
+'1D_R' - NFL rushing first downs
+'Succ%_R' - NFL rushing success rate
+'Y/A_R_P' - NFL rushing yards per attempt
+'Y/G_R' - NFL rushing yards per game
+'Fmb' - NFL number of fumbles
+Pro dataset, passing
+'Cmp_P' - NFL passes completed
+'Att_P' - NFL passes attempted
+'Pct_P' - NFL completion percentage
+'Yds_P' - NFL passing yards
+'TD_P' - NFL passing touchdowns
+'TD%' - NFL touchdown percentage
+'Int_P' - NFL number of interceptions
+'Int%' - NFL interception percentage
+'1D' - NFL number of first downs passing
+'Succ%' - NFL passing success rate
+'Y/A_P' - NFL yards per pass attempt
+'AY/A_P' - NFL adjusted yards per pass attempt
+'Y/C' - NFL yards per pass completion
+'Y/G' - NFL passing yards per game
+'Rate_P' - NFL passing rating
+'QBR' - NFL QBR
+'Sk' - NFL number of times sacked
+'SackYds' - NFL yards lost from sacks
+'Sk%' - NFL sack percentage
+'NY/A' - NFL net yards gained per attempt
+'ANY/A' - NFL adjusted net yards per pass attempt
+College dataset (averages)
+'G' - College games played
+'Cmp' - College pass completions
+'Att' - Pass attempts
+'Pct' - Pass completion percentage
+'Yds' - Passing yards
+'Y/A' - Passing yards per attempt
+'AY/A' - Adjusted passing yards per attempt
+'TD' - Passing touchdowns
+'Int' - Interceptions
+'Rate' - Passing efficiency rating
+'Att_R' - Rushing attempts
+'Yds_R' - Rushing yards
+'Avg_R' - Rushing yards per attempt
+'TD_R' - Rushing touchdowns
+'Conf' - College conference
+'School' - Most recent college attended 
+Combine dataset
+'Height' - Height of the player
+'Weight' - Weight of the player
+'40yd' - 40 time
+'Vertical' - Vertical score
+'Broad Jump' - Broad jump score
+'3Cone' - 3 Cone score
+'Shuttle' - Shuttle score
+'Drafted' - Whether drafted or not
+'OvrPick' - Overall pick number
+
+Trying to predict pro passing yards, passing touchdowns, qbr, rate, completion percentage, rushing yards, rushing touchdowns
+
+RB
+
+Pro dataset, receiving
+'Player' - Name of the player
+'Tm' - NFL Team
+'Age' - Age of the player their rookie season
+'Tgt' - Pass targets
+'Rec_P' - Receptions
+'Ctch%' - Catch percentage
+'Yds_p' - Receiving yards
+'TD_P' - Receiving touchdowns
+'1D' - First downs receiving
+'Succ%' - Receiving success rate
+'Y/Tgt' - Receiving yards per target
+'R/G' - Receptions per game
+'Y/G' - Receiving yards per game
+Pro dataset, rushing
+'G_P' - Number of NFL games played their first season
+'GS' - Number of NFL games started their first season
+'Att' - NFL rushing attempts
+'Yds_R_P' - NFL rushing yards gained
+'TD_R_P' - NFL rushing touchdowns scored
+'1D_P' - NFL rushing first downs
+'Succ%_R' - NFL rushing success rate
+'Y/A' - NFL rushing yards per attempt
+'Y/G_R' - NFL rushing yards per game
+'Fmb' - NFL number of fumbles
+College dataset (averages)
+'G' - College games played
+'Att_R' - Rush attempts
+'Yds_R' - Rushing yards
+'Avg_R' - Average rushing yards per attempt
+'TD_R' - Rushing touchdowns
+'Rec' - Receptions
+'Yds' - Receiving yards
+'Avg' - Average receiving yards per catch 
+'TD' - Reiving touchdowns
+'Plays_S' - Plays from scrimmage
+'Yds_S' - Scrimmage yards
+'Avg_S' - Average scrimmage yards per play
+'TD_S' - Scrimmage touchdowns
+Combine dataset
+'Conf' - College conference
+'School' - Most recent college attended
+'Height' - Height of the player
+'Weight' - Weight of the player
+'40yd' - 40 time
+'Vertical' - Vertical score
+'Broad Jump' - Broad jump score
+'Drafted' - Whether drafted or not
+'OvrPick' - Overall pick number
+
+Trying to predict pro passing yards, passing touchdowns, receptions, rushing yards, rushing touchdowns, rush attempts
+
+WR/TE
+
+'Player', 'Tm', 'Age', 'Pos', 'G_P', 'GS', 'Tgt', 'Rec_P', 'Ctch%',
+       'Yds_P', 'TD_P', '1D', 'Succ%', 'Y/Tgt', 'R/G', 'Y/G', 'Fmb', 'G',
+       'Rec', 'Yds', 'Avg', 'TD', 'Plays_S', 'Yds_S', 'Avg_S', 'TD_S', 'Conf',
+       'School', 'Height', 'Weight', '40yd', 'Vertical', 'Broad Jump',
+       'Drafted', 'OvrPick'
+
+Pro dataset, receiving
+'Player' - Name of the player
+'Tm' - NFL Team
+'Age' - Age of the player their rookie season
+'Pos' - Position
+'G_P' - Number of NFL games played their first season
+'GS' - Number of NFL games started their first season
+'Tgt' - Pass targets
+'Rec_P' - Receptions
+'Ctch%' - Catch percentage
+'Yds_P' - Receiving yards
+'TD_P' - Receiving touchdowns
+'1D' - First downs receiving
+'Succ%' - Receiving success rate
+'Y/Tgt' - Receiving yards per target
+'R/G' - Receptions per game
+'Y/G' - Receiving yards per game
+'Fmb' - Fumbles
+College dataset (averages)
+'G' - College games played\
+'Rec' - Receptions
+'Yds' - Receiving yards
+'Avg' - Average receiving yards per catch 
+'TD' - Reiving touchdowns
+'Plays_S' - Plays from scrimmage
+'Yds_S' - Scrimmage yards
+'Avg_S' - Average scrimmage yards per play
+'TD_S' - Scrimmage touchdowns
+Combine dataset
+'Conf' - College conference
+'School' - Most recent college attended
+'Height' - Height of the player
+'Weight' - Weight of the player
+'40yd' - 40 time
+'Vertical' - Vertical score
+'Broad Jump' - Broad jump score
+'Drafted' - Whether drafted or not
+'OvrPick' - Overall pick number
+
+Trying to predict pro passing yards, passing touchdowns, receptions
