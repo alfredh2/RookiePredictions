@@ -30,7 +30,13 @@ def predict_metrics(features):
 
     return predictions
 
-# Example usage
-features = [23, 12, 72.2, 3812, 11.7, 13.6, 40, 4, 208.0, 135, 1334, 8.4, 10, 'SEC', 76, 210, 4.35, 36, 115, 7.2, 4.39, 1, 3]  # Replace with actual feature values
+'''
+List in this order, reference columns.txt:
+['Age', 'G', 'Pct', 'Yds', 'Y/A', 'AY/A', 'TD', 'Int', 'Rate', 'Att_R',
+'Yds_R', 'Avg_R', 'TD_R', 'Conf', 'Height', 'Weight', '40yd',
+'Vertical', 'Broad Jump', '3Cone', 'Shuttle', 'Drafted', 'OvrPick']
+'''
+
+features = [23, 12, 72.2, 3812, 11.7, 13.6, 40, 4, 208.0, 135, 1334, 8.4, 10, 'SEC', 76, 210, 4.35, 36, 115, 7.2, 4.39, 1, 3]  # Replace with your feature values
 predictions = predict_metrics(features)
 print(predictions)
