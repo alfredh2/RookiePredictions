@@ -1,0 +1,28 @@
+# Data manipulation and analysis
+pandas
+numpy
+
+# Data scraping
+requests
+beautifulsoup4
+
+# Data visualization
+seaborn
+matplotlib
+
+# Machine learning
+scikit-learn
+xgboost
+
+# AWS
+boto3
+SQLAlchemy
+
+# Jupyter
+notebook
+
+# Environment variables
+python-dotenv
+
+# Other
+joblib
