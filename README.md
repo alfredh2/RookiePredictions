@@ -1,4 +1,4 @@
-# RookiePredictions
+# Rookie Predictions
 
 ## Introduction
 Welcome to the Rookie Predictions Project! This project aims to build a predictive model that effectively predicts the success of offensive NFL rookie players for the upcoming season based on their college performance and other relevant data. The core of this project is implemented in a Jupyter Notebook.
