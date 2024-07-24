@@ -5,7 +5,7 @@ Welcome to the Rookie Predictions Project! This project aims to build a predicti
 
 ## Technologies
 - **Programming Language:** Python 3
-- **Libraries and Frameworks:** Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn, XGBoost, AWS SageMaker
+- **Libraries and Frameworks:** Pandas, NumPy, Seaborn, Matplotlib, Beautiful Soup, AWS RDS, AWS S3
 - **Environment:** Jupyter Notebook
 
 ## Dataset
@@ -124,7 +124,8 @@ To run this project, follow these steps:
    jupyter notebook
    ```
 3. Open the desired notebook (e.g., `QB_Modeling.ipynb`).
-4. Run the cells in the notebook to see the analysis and model predictions.
+4. Run the cells in the notebook to create joblib models.
+5. Modify and run prediciton scripts to make projections (e.g., `qb_pred.py`).
 
 ## Results
-The notebooks include detailed analyses of model performance and accuracy metrics. We evaluate the models' predictions and discuss the best-performing model for each position. To read about my experience working on this project, visit my Medium article on it: https://medium.com/@alfredpmhofmann/project-rookie-predictions-predicting-nfl-rookie-success-701608844450
+For most of the performance metrics we wanted to measure, the model performed much better than a baseline model. To read about my experience working on this project, visit my Medium article on it: https://medium.com/@alfredpmhofmann/project-rookie-predictions-predicting-nfl-rookie-success-701608844450
