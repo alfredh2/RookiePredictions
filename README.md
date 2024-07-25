@@ -129,4 +129,4 @@ To run this project, follow these steps:
 5. Modify and run prediciton scripts to make projections (e.g., `qb_pred.py`).
 
 ## Results
-For most of the performance metrics we wanted to measure, the model performed much better than a baseline model. To read about my experience working on this project, visit my Medium article on it: https://medium.com/@alfredpmhofmann/project-rookie-predictions-predicting-nfl-rookie-success-701608844450
+For most of the performance metrics we wanted to measure, the model performed much better than a baseline model. To read about my experience working on this project, visit my Medium article on it: https://medium.com/@alfredpmhofmann/project-7-nfl-offensive-rookie-projections-6966637ed1c5
