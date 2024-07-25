@@ -9,7 +9,8 @@ Welcome to the Rookie Predictions Project! This project aims to build a predicti
 - **Environment:** Jupyter Notebook
 
 ## Dataset
-The dataset used in this project includes historical performance data of NFL rookies, their college performance metrics, and other relevant features. The data was collected from various sources and compiled for this project.
+The dataset used in this project includes historical performance data of NFL rookies, their college performance metrics, and other relevant features. The data was collected from various sources and compiled for this project. For the combine data, I found a Kaggle dataset. For the rest, I webscraped from [Sports Reference](https://www.sports-reference.com/).
+- **Dataset Source:** [Kaggle NFL Comibne Dataset](https://www.kaggle.com/datasets/thomassshaw/nfl-combine-performance-dataset)
 
 ### Data Collection Files
 - `college_passing_unclean.py`: Scrapes college passing data from sports-reference.com and saves it to `college_passing_unclean.csv`.
